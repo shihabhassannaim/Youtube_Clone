@@ -10,9 +10,6 @@ import Navbar from './Components/Navbar/Navbar';
 function App() {
   return (
     <BrowserRouter>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
       <Box sx={{backgroundColor: '#000'}}>
        <Navbar/>
         <Routes>
