@@ -1,10 +1,16 @@
+import { Box, Stack } from '@mui/material';
 import React from 'react';
 
-const Videos = () => {
+const Videos = ({ Videos }) => 
+{
     return (
-        <div>
-            <h1>This is Videos</h1>
-        </div>
+        <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}>
+            {Videos.map((item , idx) => {
+                <Box key={{idx}}>
+                    
+                </Box>
+            })}            
+        </Stack>
     );
 };
 
